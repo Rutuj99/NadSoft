@@ -2,7 +2,9 @@
 import axios from "axios";
 
 // Update API base URL to point to our Node.js server
-const API_BASE_URL = "http://localhost:5000/api";
+// const API_BASE_URL = "http://localhost:5000/api";
+
+const API_BASE_URL = "https://neosoft.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
